@@ -1,0 +1,5 @@
+STUDENT ( StudentID(PK), Name, Email, Address)
+PHONE ( PhoneID, StudentID (FK) , PhoneNumber)
+SUBJECT ( SubjectID (PK), SubjectName, Description, MaxScore)
+ENROLLMENT ( EnrollID (PK), StudentID (FK) , SubjectID (FK))
+EXAM ( ExamID (PK), EnrollmentID (FK), ExamDate, Score)
